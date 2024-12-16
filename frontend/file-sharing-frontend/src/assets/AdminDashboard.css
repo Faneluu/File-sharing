@@ -1,0 +1,139 @@
+.menu-bar {
+    flex-direction: column;
+    align-items: center
+}
+
+.logo-container {
+    display: flex;
+}
+
+.logo-image {
+    width: 50px;
+}
+
+.logo-text {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.admin-account {
+    font-size: 15px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.search-container {
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5px 5px;
+    border-radius: 10px;
+    width: 300px;
+    height: 20px;
+}
+
+.search-container:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.search-icon {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.used-space-chart {
+    height: 450px;
+    padding: 10px;
+}
+
+.charts-container {
+    width: 100%;
+    border: 2px solid #000;
+    padding-top: 50px;
+}
+
+.container-details {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.progress-bars-container {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    border: 2px solid #000;
+    margin-left: 20px;
+    padding-top: 80px;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bar {
+    width: 80px;
+}
+
+.bar-info {
+    text-align: center;
+    margin-top: 55px;
+    font-size: 15px;
+}
+
+.table-container {
+    border: 2px solid #000000;
+    margin-left: 20px;
+    margin-top: 35px;
+    padding: 40px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.download{
+    cursor: pointer; 
+}
+
+.download:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+@media (max-width: 900px) {
+    .container-details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .charts-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .progress-bars-container {
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+    }
+}
